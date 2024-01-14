@@ -74,7 +74,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="/" class="appointment-btn scrollto">Pendaftaran <span class="d-none d-md-inline">Online</span></a>
+      <a href="/pendaftaran" class="appointment-btn scrollto">Pendaftaran <span class="d-none d-md-inline">Online</span></a>
 
     </div>
   </header><!-- End Header -->
@@ -85,7 +85,7 @@
       <h1>Selamat Datang</h1>
       <h1>Di Rumah Sakit Permata</h1>
       <h2>"Sehat Prioritas, Layanan Optimal!"</h2>
-      <a href="/" class="btn-get-started scrollto">Pendaftaran Online</a>
+      <a href="/pendaftaran" class="btn-get-started scrollto">Pendaftaran Online</a>
     </div>
   </section><!-- End Hero -->
 

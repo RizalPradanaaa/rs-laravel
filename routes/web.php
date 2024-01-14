@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/pendaftaran', function () {
+    return view('daftar');
+});
+
 Route::get('/dashboard', function () {
     return view('Dashboard.index');
 });
