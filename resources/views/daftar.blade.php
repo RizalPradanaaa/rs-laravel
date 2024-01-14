@@ -59,9 +59,9 @@
                                         <div class="form-group row">
                                             <label class="col-sm-2 col-form-label">NIK (No. KTP)</label>
                                             <div class="col-sm-10">
-                                                <input type="text" class="form-control @error('NIK') is-invalid @enderror" id="nonik"
-                                                    name="NIK" placeholder="Masukan No. NIK 16 digit" value="{{ old('NIK') }}">
-                                                @error('NIK')
+                                                <input type="text" class="form-control @error('nik') is-invalid @enderror" id="nik"
+                                                    name="nik" placeholder="Masukan No. NIK 16 digit" value="{{ old('nik') }}">
+                                                @error('nik')
                                                     <div class="invalid-feedback">
                                                         "No. NIK Masih Kosong
                                                     </div>
@@ -225,7 +225,7 @@
                                         <div class="form-group row mt-2">
                                             <label class="col-sm-2 col-form-label">Masukan Keluhan</label>
                                             <div class="col-sm-10">
-                                                    <textarea type="text" name="RekamMedis" class="form-control" cols="30" rows="5"
+                                                    <textarea type="text" name="keluhan" class="form-control" cols="30" rows="5"
                                                     placeholder="Masukkan keluhan Anda"
                                                     required ></textarea>
                                             </div>
